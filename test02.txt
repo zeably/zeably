@@ -1,0 +1,15 @@
+github上传限制
+1，通过IP限制
+    涉及登录URL
+    https://github.com/session
+    https://github.com/login
+    
+    问题：登录相关的IP禁止后，会使用https://github.com首页（非登录url）的IP进行302重定向
+    
+2, 针对目的IP地址进行出向流量限制
+    可以尝试，需要控制好量的精度
+
+3，通过代理软件或深信服进行URL地址过滤
+    需要做进一步测试
+
+
